@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS dogmash;
+USE dogmash;
+
+CREATE TABLE dogs(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    score INT NOT NULL DEFAULT 8000
+);
+
+CREATE TABLE access_log(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	ip VARCHAR(45),
+	browser VARCHAR(145),
+	referer VARCHAR(100),
+	query VARCHAR(45)
+);
+
+/* Testdata */
+INSERT INTO dogs (id) VALUES (NULL), (NULL), (NULL), (NULL), (NULL);
