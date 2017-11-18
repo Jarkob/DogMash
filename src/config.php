@@ -7,7 +7,8 @@ $dbconfig = array("local" => array(
 						"dbname" => "dogmash"
 					),
 					"azure" => array(
-						"host" => "localhost";//;port=51393",
+						"host" => "localhost",
+						//port=51393",
 						"username" => "azure",
 						"password" => "6#vWHD_$",// keine Ahnung
 						"dbname" => "dogmash"
