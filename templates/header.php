@@ -13,7 +13,7 @@
 <body>
 <div class="container">
 	<div class="jumbotron">
-		<h1>DogMash - <small>Find the goodest boys!</small></h1>
+		<h1>DogMash - <small>Rate dogs!</small></h1>
 	</div>
 
 	<nav class="navbar navbar-default">
