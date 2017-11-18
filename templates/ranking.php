@@ -8,8 +8,12 @@ echo "<ol>";
 foreach($dogs as $dog) {
 ?>
 	<li>
-		<?= $dog['id']?>, score: <?= $dog['score']?>
-		<img class="img-responsive" src="img/<?= $dog['id']?>.jpg">
+		<div class="thumbnail">
+			<img class="img-responsive" src="img/<?= $dog['id']?>.jpg">
+			<div class="caption">
+				<?= $dog['id']?>, score: <?= $dog['score']?>
+			</div>
+		</div>
 	</li>
 <?php
 }
