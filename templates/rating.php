@@ -6,7 +6,7 @@ if(isset($_GET['pref'], $_GET['disf'])) {
 }
 ?>
 <div class="row">
-	<h2 class="text-center">Which dog is better?</h2>
+	<h2 class="text-center">Which dog do you prefer?</h2>
 </div>
 
 <div class="row">
